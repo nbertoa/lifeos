@@ -14,6 +14,7 @@ Its purpose is to document stable knowledge, engineering principles, learning, g
 
 ## Main Areas
 
+- About
 - Career
 - Programming
 - Unreal Engine
