@@ -2,135 +2,40 @@
 
 ## Purpose
 
-Every engineering problem begins with uncertainty.
+Problem solving is the decision process used when the right problem, constraint, or approach is uncertain. Its objective is to reduce uncertainty until the next engineering decision is justified. It applies before and between implementation steps; it is not a delivery workflow or a debugging procedure.
 
-My objective is not to find an immediate answer, but to reduce uncertainty until the next step becomes clear.
+[Engineering Playbook](EngineeringPlaybook.md) explains how this work fits the broader engineering cycle. [Debugging](Debugging.md) owns investigation after a failure or unexpected behavior is observed.
 
-Problem solving is a process of understanding, experimentation, validation, and continuous learning.
+## Define the Actual Problem
 
----
+Separate the desired outcome from the first proposed solution. Clarify current behavior, affected users or systems, constraints, success criteria, risks, and what is explicitly out of scope. Distinguish confirmed facts from assumptions, preferences, and implementation ideas.
 
-## Understand the Problem First
+A poorly framed problem invites an elegant solution to the wrong question. A useful problem statement makes the decision that must be made visible.
 
-Before attempting a solution, I make sure I understand what the actual problem is.
+## Reduce Uncertainty Deliberately
 
-A poorly understood problem almost always leads to a poor solution.
+Seek the smallest useful evidence: relevant existing knowledge, official documentation where exact behavior matters, a focused prototype, an experiment, a comparison of alternatives, or a conversation that clarifies a constraint. AI can accelerate exploration, but its reasoning and recommendations still require validation.
 
-The better I understand the problem, the simpler the solution usually becomes.
+Do not collect research merely because it might be useful later. Stop when additional information no longer improves a real decision. Preserve only durable conclusions and reasoning that will be useful again.
 
----
+## Decompose Without Losing the Decision
 
-## Reuse Existing Knowledge
+Break a large problem into smaller decisions that can be understood and validated independently. Decomposition should reveal responsibility, dependency, ordering, and risk; it should not turn one coherent decision into disconnected tasks.
 
-I avoid solving problems from scratch whenever possible.
+Start with the part that has the highest uncertainty or that constrains the remaining options. A focused prototype can validate direction, but it should not become production architecture without reassessing its assumptions.
 
-When facing something unfamiliar, I first look for knowledge that already exists.
+## Compare Options by Constraints
 
-This may include:
+Evaluate options against correctness, ownership, maintainability, integration cost, evidence, risk, and the current project stage. Reuse proven patterns when they fit the real constraints, but do not copy an implementation mechanically because it worked elsewhere.
 
-- Previous experience.
-- Unreal Engine courses.
-- AI assistance.
-- Documentation.
-- Similar implementations.
+The best option is rarely the most general or technically impressive one. It is the approach that satisfies the actual requirement with the clearest trade-offs and the least unnecessary complexity.
 
-Learning from existing knowledge is usually faster than reinventing a solution.
+## Make the Next Decision Explicit
 
----
+Record the chosen direction, the evidence supporting it, the trade-offs accepted, and the uncertainty that remains. If evidence is insufficient, postpone the decision or run a focused experiment rather than disguising uncertainty as confidence.
 
-## Use AI as a Thinking Partner
+Once direction is clear, move into the implementation cycle. Revisit the problem only when new evidence changes the constraints or invalidates the decision.
 
-AI is often my first resource when investigating an unfamiliar problem.
+## Long-Term Standard
 
-However, I never accept its answers blindly.
-
-I ask AI to explain its reasoning, compare alternatives, and justify technical decisions.
-
-Understanding the explanation is more important than copying the implementation.
-
----
-
-## Adapt Solutions to the Project
-
-A solution that works elsewhere is not automatically correct for my project.
-
-I adapt every implementation to the project's architecture, coding style, and long-term maintainability.
-
-Good engineering integrates solutions instead of simply copying them.
-
----
-
-## Isolate the Problem
-
-Whenever possible, I build a small prototype or test project.
-
-Working in isolation allows me to experiment freely without introducing unnecessary risk into the production project.
-
-Once the approach has been validated, I integrate it into the real project.
-
----
-
-## Break Large Problems Into Small Ones
-
-When a task feels overwhelming, I write it down and repeatedly divide it into smaller pieces.
-
-I continue decomposing the work until the next implementation step becomes obvious.
-
-Small problems are easier to understand, estimate, and solve.
-
----
-
-## Start With What You Already Know
-
-I do not wait until every unknown has been resolved.
-
-I begin implementing the parts I understand while continuing to learn about the remaining pieces.
-
-Progress creates momentum and often reveals the solution to the next problem.
-
----
-
-## Validate Every Solution
-
-Every proposed solution must be tested.
-
-Whether it comes from AI, documentation, or my own reasoning, implementation alone is never enough.
-
-Validation determines whether the solution is correct.
-
----
-
-## Revert Without Hesitation
-
-If an approach does not work, I revert it without hesitation.
-
-Keeping failed experiments only increases complexity.
-
-A failed attempt is valuable because it provides information, but it should not remain in the production code.
-
----
-
-## Learn From Every Problem
-
-Every solved problem becomes knowledge for future projects.
-
-The objective is not simply fixing today's issue.
-
-It is becoming capable of solving similar problems faster tomorrow.
-
----
-
-## What Success Looks Like
-
-A successful problem-solving process:
-
-- Starts by understanding the problem.
-- Reuses existing knowledge whenever appropriate.
-- Uses AI to accelerate learning, not replace judgment.
-- Adapts solutions to the project's architecture.
-- Validates ideas in isolated prototypes.
-- Breaks large problems into manageable pieces.
-- Builds from known concepts toward unknown ones.
-- Tests every solution before accepting it.
-- Removes unsuccessful approaches quickly.
-- Improves future engineering decisions through experience.
+Good problem solving does not promise immediate answers. It turns uncertainty into explicit questions, gathers evidence proportionate to the decision, and chooses the next step deliberately.

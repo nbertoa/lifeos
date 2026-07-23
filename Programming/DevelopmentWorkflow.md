@@ -2,185 +2,32 @@
 
 ## Purpose
 
-Software development is not just writing code.
+This document defines the practical coordination and delivery habits that keep engineering work visible, incremental, and dependable. It applies after the problem direction is sufficiently clear. [Engineering Playbook](EngineeringPlaybook.md) defines the integrated engineering cycle, and [Problem Solving](ProblemSolving.md) covers uncertainty before implementation.
 
-A successful project begins by understanding the problem, reducing uncertainty, validating assumptions early, and
-maintaining continuous communication throughout the entire process.
+The workflow is not a complete decision framework or a substitute for engineering judgment. Its role is to make dependencies, progress, feedback, and delivery expectations clear while work proceeds.
 
-This workflow describes how I approach software development from the moment a task is assigned until it is delivered.
+## Make Dependencies Visible
 
----
+Identify information, assets, decisions, access, and external responses that can affect progress. Communicate blockers and uncertainty early, including what is known, what is needed, and what work can continue safely. Unexpected blockers should not become surprises at delivery time.
 
-## Understand the Problem First
+## Work in Coherent Increments
 
-Before writing code, I make sure I fully understand what the client wants.
+Prefer increments that can be understood, verified, reviewed, and corrected without requiring the entire project to be complete. Keep related changes together and separate unrelated concerns. An increment may span several files when one decision requires them; artificial fragmentation does not improve safety.
 
-I ask as many questions as necessary to eliminate ambiguity and clarify expectations.
+Use feedback to update direction when evidence changes. This does not mean expanding the task continuously: changes in direction should be made explicit, evaluated against scope, and incorporated deliberately.
 
-My goal is to understand not only what needs to be built, but also why it needs to exist.
+## Provide Useful Visibility
 
-Unclear requirements almost always become expensive problems later.
+Communicate progress in terms that help others make decisions: what has been completed, what is in progress, what remains, which risks or dependencies exist, and which trade-offs matter. Use demonstrations, screenshots, videos, or written explanations when they provide better evidence than a status statement.
 
----
+Visibility is not activity reporting. Its purpose is to expose information early enough for feedback, reprioritization, or correction to remain inexpensive.
 
-## Identify Dependencies Early
+## Prepare Delivery Deliberately
 
-Many tasks depend on information, assets, or decisions provided by the client.
+Before presenting work, ensure that the implementation has completed [Self Review](SelfReview.md) and that the relevant verification evidence is available. Describe what changed, how it was verified, what remains uncertain, and any next decision that requires feedback.
 
-I identify those dependencies as early as possible and communicate them immediately.
+Delivery should make the result understandable and testable by the intended audience. It does not imply automatic commit or push; repository stages remain governed by explicit approval.
 
-If something outside my control can block progress, I make that risk visible from the beginning.
+## Long-Term Standard
 
-Unexpected blockers should never become surprises.
-
----
-
-## Break Down the Work
-
-Once the requirements are clear, I break the work into smaller, manageable pieces.
-
-Understanding exactly what I am responsible for makes estimation, implementation, and communication significantly
-easier.
-
-Large problems become a sequence of small, understandable tasks.
-
----
-
-## Research Before Coding
-
-I rarely implement the first solution that comes to mind.
-
-Before starting, I investigate different approaches, compare trade-offs, and choose the solution that best fits the
-project.
-
-Good implementation starts with good decisions.
-
----
-
-## Prototype Early
-
-Instead of investing significant time in a complete implementation immediately, I build a prototype first.
-
-The objective is to validate the direction, discover misunderstandings early, and gather feedback before making larger
-investments.
-
-Finding mistakes early is much cheaper than correcting them later.
-
----
-
-## Work Iteratively
-
-I develop software in small, incremental steps.
-
-Rather than implementing several large features before asking for feedback, I prefer a continuous cycle of:
-
-- Implement.
-- Validate.
-- Improve.
-
-Each iteration reduces uncertainty and builds confidence that the project is moving in the right direction.
-
----
-
-## Provide Continuous Visibility
-
-Communication is part of development.
-
-I regularly share progress using screenshots, videos, presentations, or demonstrations.
-
-I explain:
-
-- What has been completed.
-- What is currently in progress.
-- What remains.
-- Any blockers or dependencies.
-- The reasoning behind important technical decisions.
-
-My goal is that the client always understands the current state of the project.
-
-There should never be surprises at delivery time.
-
----
-
-## Keep Changes Small
-
-I prefer making small, meaningful code changes instead of accumulating large batches of work.
-
-Small commits are easier to review, validate, understand, and correct if necessary.
-
-Progress should be continuous rather than delivered in large milestones.
-
----
-
-## Let Feedback Drive Development
-
-Feedback is an expected part of the development process.
-
-Especially during research and development, changes are normal.
-
-Every iteration provides new information that helps improve the product.
-
-Rather than resisting change, I incorporate validated feedback into the next iteration.
-
----
-
-## Collaborate on Solutions
-
-My responsibility is not simply to implement requirements.
-
-It is to help build the best solution.
-
-If I believe a request introduces unnecessary complexity, excessive risk, or is unlikely to succeed, I explain my
-concerns and propose alternatives.
-
-Likewise, if I discover a better implementation while developing, I communicate it along with its advantages and
-disadvantages.
-
-Technical decisions should be collaborative, not unilateral.
-
----
-
-## Explain Trade-offs
-
-There is rarely a perfect solution.
-
-Whenever I propose an alternative, I explain its trade-offs so the client can make informed decisions.
-
-Transparent communication builds trust and leads to better outcomes.
-
----
-
-## Reduce Uncertainty Continuously
-
-Almost every step in my workflow exists to reduce uncertainty.
-
-I ask questions.
-
-I identify dependencies.
-
-I research alternatives.
-
-I prototype.
-
-I demonstrate progress.
-
-I gather feedback.
-
-The earlier uncertainty is removed, the lower the project risk becomes.
-
----
-
-## What Success Looks Like
-
-A successful project is one where:
-
-- Requirements are clearly understood.
-- Dependencies are identified early.
-- Risks are communicated openly.
-- Solutions are researched before implementation.
-- Prototypes validate direction early.
-- Development progresses in small iterations.
-- Feedback continuously improves the product.
-- Progress is always visible.
-- Technical decisions are explained transparently.
-- The final result matches the client's expectations without surprises.
+A strong workflow keeps work small enough to understand, dependencies visible enough to manage, and feedback early enough to improve the result. Coordination should support engineering judgment, not replace it.

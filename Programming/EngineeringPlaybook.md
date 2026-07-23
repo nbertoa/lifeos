@@ -67,7 +67,7 @@ Challenge speculative abstraction, premature frameworks, global state, unclear m
 
 Implementation should proceed in increments that are understandable, verifiable, reviewable, reversible where practical, and cohesive. Preserve a buildable state, separate unrelated concerns, make intent visible, use existing conventions, minimize temporary invalid states, review the diff continuously, and update assumptions as evidence changes.
 
-Do not require artificial micro-commits: a coherent change may span several files. [Development Workflow](DevelopmentWorkflow.md) provides the broader delivery approach, while [Estimation](Estimation.md) helps make scope and uncertainty explicit. Smallness is useful when it reduces review and rollback risk, not when it fragments one decision into meaningless pieces.
+Do not require artificial micro-commits: a coherent change may span several files. [Development Workflow](DevelopmentWorkflow.md) covers practical coordination, feedback, and delivery, while [Estimation](Estimation.md) helps make scope and uncertainty explicit. Smallness is useful when it reduces review and rollback risk, not when it fragments one decision into meaningless pieces.
 
 ## Protect Invariants
 
@@ -153,7 +153,7 @@ Verify exact engine behavior through current official documentation, engine sour
 - [Code Review](CodeReview.md) — Evaluating change intent, risk, and integration readiness.
 - [Debugging](Debugging.md) — Reproduction, evidence, root-cause analysis, and verification.
 - [Defensive Programming](DefensiveProgramming.md) — Contracts, invalid states, and deliberate failure behavior.
-- [Development Workflow](DevelopmentWorkflow.md) — Delivery, communication, and iterative work.
+- [Development Workflow](DevelopmentWorkflow.md) — Coordinating progress, feedback, and delivery.
 - [Estimation](Estimation.md) — Scope, uncertainty, and transparent forecasting.
 - [Problem Solving](ProblemSolving.md) — Reducing uncertainty before selecting a solution.
 - [Self Review](SelfReview.md) — Author responsibility before sharing a change.

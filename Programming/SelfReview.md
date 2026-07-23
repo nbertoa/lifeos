@@ -2,123 +2,47 @@
 
 ## Purpose
 
-Finishing an implementation is not the same as finishing the work.
+Self-review is the author-side check performed before requesting external review or presenting a change as ready. Its purpose is to catch misunderstandings, regressions, scope growth, and unclear reasoning while the author still has the most context.
 
-Before sharing any feature with the client, I perform a structured self-review to ensure it is correct, understandable,
-maintainable, and ready for feedback.
+It does not replace [Code Review](CodeReview.md), which provides an independent reviewer perspective, or [Development Workflow](DevelopmentWorkflow.md), which covers coordination and delivery. [Engineering Playbook](EngineeringPlaybook.md) places self-review within the broader engineering cycle. Commit and push are separate authorized stages; completing self-review does not authorize either action.
 
-This review is part of the development process, not an optional final step.
+## Review the Intended Outcome
 
----
+Compare the final change with the original objective. Confirm that the problem is solved, that explicitly excluded work remains excluded, and that no assumption has silently become a requirement. A working implementation is incomplete when it solves a different problem than the one requested.
 
-## Verify Existing Functionality
+## Inspect the Final Diff
 
-The first priority is ensuring that the new implementation has not broken existing functionality.
+Read the final diff as if it were written by someone else. Verify that every changed file supports the intended outcome, unrelated cleanup is absent, and temporary code, diagnostics, generated artifacts, or abandoned experiments have not been included accidentally.
 
-I verify that previously working behavior continues to work as expected.
+Small diffs are easier to understand, but size alone does not determine quality. A cohesive change may require several files; the question is whether each one is necessary and reviewable.
 
-Introducing regressions is often more expensive than implementing the new feature itself.
+## Verify Behavior and Failure Paths
 
----
+Check the expected behavior, meaningful edge cases, and relevant failure paths. Choose evidence proportionate to risk: compilation, static checks, targeted execution, automated tests where appropriate, manual verification, logs, or an explicit reproduction. “It compiled” is not sufficient evidence for a behavioral change.
 
-## Test Different Use Cases
+Confirm that invalid input, missing optional dependencies, and unsupported states have deliberate behavior. If an invariant was broken during implementation, resolve the cause rather than hiding it with an early return. Use [Defensive Programming](DefensiveProgramming.md) for the detailed contract and failure model.
 
-I test both the expected workflow and alternative scenarios.
+## Review Clarity and Integration
 
-The goal is to confirm that the feature behaves correctly under realistic usage rather than only under ideal conditions.
+Ask whether another engineer can understand the change without reconstructing hidden reasoning. Check names, responsibilities, control flow, ownership, lifecycle, comments, and public API changes. Ensure the implementation follows the surrounding architecture and does not introduce speculative abstractions or unnecessary coupling.
 
-The implementation should satisfy the complete requirement, not just a happy path.
+Review related call sites and integration boundaries when the change affects shared behavior. For Unreal work, include the relevant lifecycle, Blueprint/C++ boundary, replication, editor, or shipping-build context rather than assuming the local code is sufficient.
 
----
+## Prepare for External Review
 
-## Refactor Before Delivery
-
-Once the feature works correctly, I review the implementation itself.
-
-I simplify the code where possible, improve readability, remove unnecessary complexity, and leave the code in a
-maintainable state.
-
-Working code is only the first milestone.
-
-Readable code is the final objective.
-
----
-
-## Optimize for Readability
-
-Before considering the work complete, I ask a simple question:
-
-> Would another developer understand this without additional explanation?
-
-Clear naming, straightforward logic, and understandable structure are more valuable than clever implementations.
-
-Future maintenance always matters.
-
----
-
-## Validate Against the Original Requirement
-
-Before showing the feature, I verify that it actually solves the problem the client requested.
-
-It is easy to accidentally implement what seemed correct instead of what was actually requested.
-
-The original requirement is always the reference.
-
----
-
-## Commit Small Changes
-
-Once I am satisfied with the implementation, I push the changes as a small, meaningful commit.
-
-Frequent small commits make progress easier to understand and reduce the risk associated with large batches of changes.
-
----
-
-## Deliver a Build
-
-I prepare a build that the client can test directly.
-
-The objective is to let the client validate real behavior instead of relying solely on descriptions.
-
-Software should be demonstrated, not merely explained.
-
----
-
-## Demonstrate the Result
-
-Along with the build, I prepare a demonstration.
-
-This usually includes a video, screenshots, or a presentation showing:
-
-- What was implemented.
-- How it works.
-- Any important technical decisions.
-- Remaining work, if any.
-
-Showing the result visually reduces misunderstandings and accelerates feedback.
-
----
-
-## Success Is Client Understanding
-
-A task is not complete simply because the code works.
-
-It is complete when the client understands what was built, validates that it solves the intended problem, and can
-confidently provide feedback for the next iteration.
-
-Communication is part of delivery.
-
----
+State the intended outcome, meaningful trade-offs, evidence collected, and remaining uncertainty clearly enough for a reviewer to evaluate the change. Resolve known blocking concerns before requesting approval; keep genuine non-blocking improvements separate from the current scope.
 
 ## What Success Looks Like
 
-Before considering a feature complete, I can answer "yes" to all of the following:
+Before requesting external review, I can answer yes to these questions:
 
-- Existing functionality still works.
-- Different use cases have been tested.
-- The implementation has been refactored where appropriate.
-- The code is easy to understand.
-- The feature matches the original requirement.
-- The changes have been committed.
-- A build is available.
-- The client has a clear demonstration of the work.
+- Does the final diff solve the intended problem without unrelated changes?
+- Is the behavior verified in proportion to risk, including meaningful failure paths?
+- Are contracts, ownership, and important assumptions clear?
+- Does the change fit the existing architecture and remain understandable?
+- Have temporary diagnostics and abandoned work been removed?
+- Can another reviewer understand the evidence and remaining uncertainty?
+
+## Long-Term Standard
+
+Self-review is the last opportunity for the author to make a change easier to trust before another person must reason about it. Review the diff, the behavior, and the assumptions—not only whether the code appears to work.

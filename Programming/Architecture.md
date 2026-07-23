@@ -53,19 +53,20 @@ Each system should know only what it truly needs to know.
 
 ---
 
-## Prefer Reuse
+## Reuse When It Reduces Complexity
 
-When possible, I design reusable solutions instead of duplicating code.
+I reuse solutions when repeated, demonstrated needs make a shared component clearer and cheaper to maintain than the
+alternatives.
 
-Reusable components reduce maintenance effort and improve consistency across the project.
-
-However, reuse should simplify the project rather than introduce unnecessary abstraction.
+Reusable components can reduce maintenance effort and improve consistency, but reuse should simplify the project rather
+than introduce unnecessary abstraction. Limited duplication is often preferable to a shared design that does not match a
+real responsibility or axis of variation.
 
 ---
 
 ## Accept Pragmatic Duplication
 
-Although reuse is the default, I accept limited duplication when it is the most practical decision.
+I accept limited duplication when it is the most practical decision.
 
 Typical examples include:
 
