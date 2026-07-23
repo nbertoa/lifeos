@@ -15,6 +15,7 @@ Its purpose is to preserve durable, decision-relevant knowledge, engineering pri
 - LifeOS does not attempt to comprehensively document external subjects.
 
 See [Knowledge Principles](About/KnowledgePrinciples.md) for the inclusion criteria.
+See [Repository Architecture](ARCHITECTURE.md) for repository structure and long-term design context.
 
 ## Main Areas
 

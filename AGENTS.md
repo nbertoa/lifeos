@@ -9,6 +9,8 @@ This document defines how AI agents should collaborate within this repository.
 Its goal is to ensure that every recommendation, code change, review, and explanation follows consistent engineering
 principles, produces high-quality results, and helps the repository evolve over time.
 
+For the operational collaboration standard, follow [AI Engineering Collaboration](AI/EngineeringCollaboration.md).
+
 ## General Principles
 
 This section establishes broad expectations for responsible work.
