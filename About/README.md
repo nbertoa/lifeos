@@ -8,6 +8,7 @@ It documents professional identity, background, experience, public presence, and
 
 - [Knowledge Principles](KnowledgePrinciples.md)
 - [Knowledge Audit](KnowledgeAudit.md)
+- [LifeOS Evolution](Evolution.md)
 - [Identity](Identity.md)
 - [Profile](Profile.md)
 - [Biography](Biography.md)
