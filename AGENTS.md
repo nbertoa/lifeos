@@ -1,36 +1,20 @@
 # AGENTS
 
-This document defines the shared operating guidelines for contributors.
+This document is the operational entry point for AI coding agents working in this repository.
 
 ## Purpose
 
-This document defines how AI agents should collaborate within this repository.
+Read and follow these documents before making repository changes:
 
-Its goal is to ensure that every recommendation, code change, review, and explanation follows consistent engineering
-principles, produces high-quality results, and helps the repository evolve over time.
+- [AI Engineering Collaboration](AI/EngineeringCollaboration.md) defines expected collaboration behavior, critical review, engineering judgment, communication, and uncertainty.
+- [Knowledge Principles](About/KnowledgePrinciples.md) defines what knowledge belongs in LifeOS, what should not be added, and the durability and decision-value criteria.
+- [LifeOS Evolution](About/Evolution.md) defines the path from idea through discussion, decision, implementation, review, and commit; it also governs scope control and favors updating over adding.
+- [LifeOS Architecture](ARCHITECTURE.md) defines repository structure, folder responsibilities, and architectural boundaries.
 
-For the operational collaboration standard, follow [AI Engineering Collaboration](AI/EngineeringCollaboration.md).
+## Repository Rules
 
-## General Principles
-
-This section establishes broad expectations for responsible work.
-
-## Communication Style
-
-This section defines standards for clear and professional communication.
-
-## Engineering Standards
-
-This section outlines expectations for reliable and maintainable work.
-
-## Review Guidelines
-
-This section describes the criteria for evaluating proposed changes.
-
-## Learning Philosophy
-
-This section explains the approach to continuous improvement and knowledge sharing.
-
-## Decision Making
-
-This section sets expectations for informed and accountable decisions.
+- Work directly on `main` unless instructed otherwise.
+- Use Markdown for documentation and write document contents in English.
+- Keep changes small, focused, and within the approved scope.
+- Do not include unrelated cleanup.
+- Do not commit or push without explicit approval.
