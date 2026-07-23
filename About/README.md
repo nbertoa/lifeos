@@ -6,7 +6,8 @@ It documents professional identity, background, experience, public presence, and
 
 ## Contents
 
-- Profile
-- Resume
-- Online Presence
-- Biography
+- [Identity](Identity.md)
+- [Profile](Profile.md)
+- [Biography](Biography.md)
+- [Resume](Resume.md)
+- [Online Presence](OnlinePresence.md)

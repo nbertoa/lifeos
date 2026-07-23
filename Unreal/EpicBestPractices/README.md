@@ -26,6 +26,16 @@ This collection documents Epic's guidance separately from personal engineering p
 
 ---
 
+## Maintenance and Sources
+
+Each recommendation should identify its primary Epic source, the applicable engine version when version-dependent, and a
+review date. General references include [Programming with C++](https://dev.epicgames.com/documentation/unreal-engine/programming-with-cplusplus-in-unreal-engine?lang=en-US), the [Epic C++ Coding Standard](https://dev.epicgames.com/documentation/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine), and [Blueprints Visual Scripting](https://dev.epicgames.com/documentation/unreal-engine/blueprints-visual-scripting-in-unreal-engine?lang=en-US).
+
+When official guidance, engine behavior, or project constraints differ, document the conflict and the decision rather
+than presenting a recommendation as universal.
+
+---
+
 ## Scope
 
 The target is broad coverage of production Unreal Engine development, including:

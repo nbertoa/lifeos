@@ -7,4 +7,5 @@ long-term growth.
 
 ## Contents
 
-- [Philosophy](Philosophy.md)~~~~
+- [Decision Making](DecisionMaking.md)
+- [Philosophy](Philosophy.md)

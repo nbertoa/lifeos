@@ -14,13 +14,14 @@ Its purpose is to document stable knowledge, engineering principles, learning, g
 
 ## Main Areas
 
-- About
-- Career
-- Programming
-- Unreal Engine
-- Learning
-- AI
-- Projects
-- Bible
+- [About](About/README.md)
+- [Career](Career/README.md)
+- [Programming](Programming/README.md)
+- [Unreal Engine](Unreal/README.md)
+- [Learning](Learning/README.md)
+- [AI](AI/README.md)
+- [Projects](Projects/README.md)
+- [Bible](Bible/README.md)
+- [Personal](Personal/README.md)
 
 This repository evolves continuously.
