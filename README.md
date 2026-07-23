@@ -1,6 +1,6 @@
 # LifeOS
 
-LifeOS is my personal knowledge base and long-term operating manual.
+LifeOS is my personal knowledge base, source of truth, and long-term operating manual.
 
 Its purpose is to preserve durable, decision-relevant knowledge, engineering principles, learning, goals, and AI collaboration guidelines.
 
@@ -14,6 +14,8 @@ Its purpose is to preserve durable, decision-relevant knowledge, engineering pri
 - Knowledge should improve future judgment, decisions, or actions.
 - LifeOS does not attempt to comprehensively document external subjects.
 
+See [LifeOS](About/LifeOS.md) for the system's purpose, information architecture, and maintenance model.
+See [Profile](About/Profile.md) for concise owner context.
 See [Knowledge Principles](About/KnowledgePrinciples.md) for the inclusion criteria.
 See [Repository Architecture](ARCHITECTURE.md) for repository structure and long-term design context.
 

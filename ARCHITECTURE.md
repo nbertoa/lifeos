@@ -8,6 +8,9 @@ enable effective collaboration with AI assistants.
 It is intended to evolve over decades while remaining simple, maintainable, and independent of any specific tool or AI
 model.
 
+[LifeOS](About/LifeOS.md) is the canonical definition of the system, including canonical and derived document roles,
+contradiction handling, and the knowledge lifecycle. This file provides the shorter repository-level structural view.
+
 ## Design Principles
 
 Keep documents focused, durable, and easy to navigate. Prefer stable knowledge over transient notes, link related
@@ -20,8 +23,9 @@ documents that can be read independently and discovered through relative links.
 
 ## Document Types
 
-README files provide navigation and local context. Topic documents capture durable knowledge, principles, practices, or
-reference material. Planning documents identify future work without representing it as completed guidance.
+README files provide navigation and local context. Canonical topic documents own a defined set of facts or decisions.
+Derived documents adapt canonical material without becoming independent factual sources. Other topic documents capture
+durable principles, practices, or reference material.
 
 ## Evolution Strategy
 
