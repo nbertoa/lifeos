@@ -2,7 +2,7 @@
 
 LifeOS is my personal knowledge base and long-term operating manual.
 
-Its purpose is to document stable knowledge, engineering principles, learning, goals, and AI collaboration guidelines.
+Its purpose is to preserve durable, decision-relevant knowledge, engineering principles, learning, goals, and AI collaboration guidelines.
 
 ## Principles
 
@@ -11,6 +11,10 @@ Its purpose is to document stable knowledge, engineering principles, learning, g
 - Notes are preferred over memory.
 - Every document should be easy for both humans and AI to understand.
 - Quality is more important than quantity.
+- Knowledge should improve future judgment, decisions, or actions.
+- LifeOS does not attempt to comprehensively document external subjects.
+
+See [Knowledge Principles](About/KnowledgePrinciples.md) for the inclusion criteria.
 
 ## Main Areas
 

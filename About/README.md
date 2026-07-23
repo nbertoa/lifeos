@@ -6,6 +6,8 @@ It documents professional identity, background, experience, public presence, and
 
 ## Contents
 
+- [Knowledge Principles](KnowledgePrinciples.md)
+- [Knowledge Audit](KnowledgeAudit.md)
 - [Identity](Identity.md)
 - [Profile](Profile.md)
 - [Biography](Biography.md)
