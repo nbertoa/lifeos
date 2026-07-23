@@ -13,6 +13,10 @@ The repository is primarily a collection of personal principles and adopted engi
 ### Keep
 
 - `About/Identity.md` — **Keep.** It records durable personal direction and professional priorities that provide context for the rest of LifeOS.
+- `About/LifeOS.md` — **Keep.** It defines the repository's canonical and derived information model, knowledge lifecycle, contradiction handling, and AI interpretation rules.
+- `About/Profile.md` — **Keep.** It provides the concise canonical owner context needed by people and AI assistants.
+- `About/Biography.md` — **Keep.** It explains continuity across supported career stages without replacing the factual timeline.
+- `Career/ProfessionalJourney.md` — **Keep.** It is the canonical career record and preserves employer/client distinctions.
 - `Programming/EngineeringPrinciples.md` — **Keep.** It captures personally adopted trade-offs and decision criteria rather than attempting to document a domain comprehensively.
 - `Programming/Debugging.md` — **Keep.** It preserves a reusable problem-solving approach likely to improve future engineering actions.
 - `Unreal/BlueprintsVsCpp.md` — **Keep.** It states a durable decision framework for selecting tools and protecting system boundaries.
@@ -31,12 +35,11 @@ No current findings.
 
 ### Uncertain
 
-- `About/Profile.md`, `About/Resume.md`, `About/Biography.md`, and `About/OnlinePresence.md` — **Uncertain.** These empty placeholders have no current evidence of durable value; keep them unchanged until their purpose is concrete.
-- `Programming/CodeReview.md` — **Uncertain.** It is empty and may belong as a section within an existing workflow or principles document unless it develops a distinct, durable purpose.
+- `About/Resume.md` — **Uncertain.** It is intentionally reserved as a derived document until a specific audience justifies maintaining résumé content.
 
 ## Recommended Next Actions
 
 1. Apply the Knowledge Principles before adding any new topic document.
 2. Review `Unreal/GameplayArchitecture.md` when it next changes and retain only personally adopted guidance.
-3. Reassess empty placeholders before adding content; update an existing document when the concept is not distinct.
+3. Reassess the reserved résumé before adding content; generate it from the professional journey only for a defined audience.
 4. Repeat this audit after a meaningful expansion, not on a fixed schedule.

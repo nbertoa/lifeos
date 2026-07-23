@@ -6,11 +6,13 @@ It documents professional identity, background, experience, public presence, and
 
 ## Contents
 
+- [LifeOS](LifeOS.md) — Canonical definition of the knowledge system.
+- [Profile](Profile.md) — Concise canonical identity profile.
+- [Biography](Biography.md) — Narrative professional development.
+- [How to Think Like Me](HowToThinkLikeMe.md) — Operational reasoning and collaboration preferences.
+- [Identity](Identity.md) — Mission and long-term professional direction.
+- [Online Presence](OnlinePresence.md) — Canonical responsibilities for public profiles.
 - [Knowledge Principles](KnowledgePrinciples.md)
 - [Knowledge Audit](KnowledgeAudit.md)
 - [LifeOS Evolution](Evolution.md)
-- [Identity](Identity.md)
-- [Profile](Profile.md)
-- [Biography](Biography.md)
-- [Resume](Resume.md)
-- [Online Presence](OnlinePresence.md)
+- [Resume](Resume.md) — Reserved derived document.
