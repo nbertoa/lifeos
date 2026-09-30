@@ -34,7 +34,8 @@ Before answering about Nicolás, his career, working preferences, or LifeOS:
 2. Read [Profile](../About/Profile.md) for concise identity context.
 3. Locate the canonical document for the specific fact or decision.
 4. Inspect related documents for constraints and potential contradictions.
-5. Use external sources only when the repository does not own the fact or current verification is required.
+5. When the request concerns current projects, prioritization, or competing work, read [Project Portfolio](../Projects/Portfolio.md).
+6. Use external sources only when the repository does not own the fact or current verification is required.
 
 Do not rely on model memory when repository evidence exists. Do not treat a search result, public profile, generated
 summary, or derived résumé as more authoritative than the relevant canonical LifeOS source.
