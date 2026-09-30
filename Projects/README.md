@@ -8,7 +8,7 @@ It is intentionally **not** a task manager. Temporary tasks, daily checklists, r
 
 Every project represented here should make five things clear:
 
-- **State** — `Active`, `Maintenance`, or `On hold`.
+- **State** — `Focus`, `Active`, `Maintenance`, or `On hold`.
 - **Priority** — relative attention within the current portfolio, not a permanent importance score.
 - **Outcome** — the durable result the project is intended to produce.
 - **Next milestone or decision** — the next meaningful project-level checkpoint, not the next small task.
@@ -16,6 +16,7 @@ Every project represented here should make five things clear:
 
 ### States
 
+- **Focus** — deliberately limited subset receiving concentrated execution attention now.
 - **Active** — intentionally receiving meaningful attention now.
 - **Maintenance** — valuable and ongoing, but primarily sustained rather than actively expanded.
 - **On hold** — intentionally not consuming active attention; retained because resuming it remains plausible.
@@ -28,7 +29,7 @@ The portfolio is maintained in [Portfolio](Portfolio.md).
 
 ## Operating Rules
 
-1. Keep the active set small enough that each active project can make meaningful progress.
+1. Keep Focus to no more than two domain projects; keep the broader active set small enough to remain intentional.
 2. Do not use LifeOS to duplicate GitHub issues, Todoist tasks, WordPress queues, research notes, or other execution systems.
 3. Record only project-level milestones and decisions that affect prioritization.
 4. Link to the execution source of truth instead of copying its backlog.
