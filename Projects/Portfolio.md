@@ -59,6 +59,14 @@ Focus is deliberately small: projects currently receiving concentrated execution
 - **Source of truth:** Correspondence with publishers/rightsholders and the maintained Morris Venden translation corpus.
 - **Review trigger:** A substantive publisher/rightsholder response, a rights decision, or acceptance/rejection of a publication path.
 
+### Come and Reason — Spanish Translation
+
+- **Priority:** Not yet explicitly ranked.
+- **Outcome:** Make the selected Come and Reason material available coherently in Spanish without duplicating content that is already published.
+- **Next milestone or decision:** Compare the completed and ongoing Spanish translation corpus against the current site offering, remove or reconcile duplicates, and determine the remaining material to incorporate.
+- **Source of truth:** Maintained Spanish translation corpus and the corresponding published website content.
+- **Review trigger:** Completion of the corpus-to-site comparison, completion of the remaining Sabbath School/blog/Remedy material, or a change in publication scope.
+
 ## Focus Limit
 
 Keep **no more than two domain projects** in Focus at once. LifeOS itself is infrastructure and does not consume a domain-project slot unless it is undergoing a substantial redesign.
