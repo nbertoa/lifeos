@@ -27,6 +27,10 @@ README files provide navigation and local context. Canonical topic documents own
 Derived documents adapt canonical material without becoming independent factual sources. Other topic documents capture
 durable principles, practices, or reference material.
 
+## Project Portfolio
+
+[Project Portfolio](Projects/Portfolio.md) is the canonical portfolio-level view of current projects. It records durable project state, relative attention, outcome, next meaningful milestone or decision, and the execution source of truth without duplicating task systems or backlogs.
+
 ## Evolution Strategy
 
 Add knowledge incrementally, revise documents when understanding changes, and remove or consolidate content that has
