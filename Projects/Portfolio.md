@@ -13,6 +13,18 @@ This document answers four questions quickly:
 
 Priority is relative and temporary. It exists to resolve competition for attention; it is not a statement of a project's intrinsic value.
 
+## Portfolio Snapshot
+
+| State | Projects |
+| --- | --- |
+| **Focus** | Ellen White Research |
+| **Active** | BertaDevKit; LifeOS; Jesús y Yo — Digital Library; Come and Reason — Spanish Translation; ¿Restaurará Dios a todos?; Para qué estamos acá; La Oración; Ojo bueno y ojo malo |
+| **Waiting** | Morris Venden — Authorized Spanish Publication; David Bentley Hart New Testament — MyBible Module |
+| **Maintenance** | Unreal Authorized Instructor — Annual Maintenance |
+| **On hold** | None verified |
+
+`Waiting` is an execution condition rather than an importance level: progress currently depends primarily on an external response, publication, approval, or other dependency.
+
 ## Focus
 
 Focus is deliberately small: projects currently receiving concentrated execution attention. A project can remain Active without competing for daily focus.
@@ -50,6 +62,8 @@ Focus is deliberately small: projects currently receiving concentrated execution
 - **Next milestone or decision:** Finish the current Morris Venden web-publication pass, including the corrected Spanish edition of *Nada Que Temer*, its durable source file, download, chapter structure, and final verification.
 - **Source of truth:** https://jesusyyo.com plus the maintained source documents for each publication.
 - **Review trigger:** Completion of the Morris Venden publication pass, a material change in rights/hosting constraints, or a redesign of the library publishing workflow.
+
+## Waiting
 
 ### Morris Venden — Authorized Spanish Publication
 
@@ -107,6 +121,8 @@ Focus is deliberately small: projects currently receiving concentrated execution
 - **Source of truth:** Maintained MyBible module files and correspondence with the MyBible maintainers.
 - **Review trigger:** Verified public availability of the module or a maintainer request for changes.
 
+## Maintenance
+
 ### Unreal Authorized Instructor — Annual Maintenance
 
 - **Priority:** Not yet explicitly ranked.
@@ -120,10 +136,6 @@ Focus is deliberately small: projects currently receiving concentrated execution
 Keep **no more than two domain projects** in Focus at once. LifeOS itself is infrastructure and does not consume a domain-project slot unless it is undergoing a substantial redesign.
 
 Moving a project into Focus should normally move another project back to Active, Maintenance, or On hold. This is a WIP constraint, not a judgment of importance.
-
-## Maintenance
-
-_No additional project has enough verified evidence to classify as Maintenance yet._
 
 ## On hold
 
