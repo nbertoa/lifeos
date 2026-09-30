@@ -8,7 +8,7 @@ It is intentionally **not** a task manager. Temporary tasks, daily checklists, r
 
 Every project represented here should make five things clear:
 
-- **State** — `Focus`, `Active`, `Maintenance`, or `On hold`.
+- **State** — `Focus`, `Active`, `Waiting`, `Maintenance`, or `On hold`.
 - **Priority** — relative attention within the current portfolio, not a permanent importance score.
 - **Outcome** — the durable result the project is intended to produce.
 - **Next milestone or decision** — the next meaningful project-level checkpoint, not the next small task.
@@ -18,6 +18,7 @@ Every project represented here should make five things clear:
 
 - **Focus** — deliberately limited subset receiving concentrated execution attention now.
 - **Active** — intentionally receiving meaningful attention now.
+- **Waiting** — meaningful work whose next progress depends primarily on an external response, approval, publication, or dependency.
 - **Maintenance** — valuable and ongoing, but primarily sustained rather than actively expanded.
 - **On hold** — intentionally not consuming active attention; retained because resuming it remains plausible.
 
