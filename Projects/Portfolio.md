@@ -63,16 +63,6 @@ Focus is deliberately small: projects currently receiving concentrated execution
 - **Source of truth:** https://jesusyyo.com plus the maintained source documents for each publication.
 - **Review trigger:** Completion of the Morris Venden publication pass, a material change in rights/hosting constraints, or a redesign of the library publishing workflow.
 
-## Waiting
-
-### Morris Venden — Authorized Spanish Publication
-
-- **Priority:** Not yet explicitly ranked.
-- **Outcome:** Make the completed Spanish translations available legally through an established publisher, without a personal profit motive, in ebook/Kindle and print where accepted.
-- **Next milestone or decision:** Receive and evaluate responses from ACES and IADPA; if a publisher is interested, perform a fresh quality review of the translations before delivering publication-ready files.
-- **Source of truth:** Correspondence with publishers/rightsholders and the maintained Morris Venden translation corpus.
-- **Review trigger:** A substantive publisher/rightsholder response, a rights decision, or acceptance/rejection of a publication path.
-
 ### Come and Reason — Spanish Translation
 
 - **Priority:** Not yet explicitly ranked.
@@ -112,6 +102,16 @@ Focus is deliberately small: projects currently receiving concentrated execution
 - **Next milestone or decision:** Continue the research phase around John 9 and related biblical motifs before committing to a chapter architecture.
 - **Source of truth:** https://github.com/nbertoa/ojo-bueno-y-ojo-malo
 - **Review trigger:** Sufficient research to define the book architecture, transition into chapter writing, or a deliberate pause.
+
+## Waiting
+
+### Morris Venden — Authorized Spanish Publication
+
+- **Priority:** Not yet explicitly ranked.
+- **Outcome:** Make the completed Spanish translations available legally through an established publisher, without a personal profit motive, in ebook/Kindle and print where accepted.
+- **Next milestone or decision:** Receive and evaluate responses from ACES and IADPA; if a publisher is interested, perform a fresh quality review of the translations before delivering publication-ready files.
+- **Source of truth:** Correspondence with publishers/rightsholders and the maintained Morris Venden translation corpus.
+- **Review trigger:** A substantive publisher/rightsholder response, a rights decision, or acceptance/rejection of a publication path.
 
 ### David Bentley Hart New Testament — MyBible Module
 
