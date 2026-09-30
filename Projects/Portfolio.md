@@ -6,14 +6,16 @@
 
 This document answers four questions quickly:
 
-1. What is intentionally active now?
-2. What is being maintained rather than expanded?
-3. What has been deliberately put on hold?
+1. What is intentionally in focus now?
+2. What remains active without competing for primary attention?
+3. What is being maintained or deliberately put on hold?
 4. What project-level decision or milestone should happen next?
 
 Priority is relative and temporary. It exists to resolve competition for attention; it is not a statement of a project's intrinsic value.
 
-## Active
+## Focus
+
+Focus is deliberately small: projects currently receiving concentrated execution attention. A project can remain Active without competing for daily focus.
 
 ### Ellen White Research
 
@@ -22,6 +24,8 @@ Priority is relative and temporary. It exists to resolve competition for attenti
 - **Next milestone or decision:** Complete Chapter 9, “¿Utilizó Ellen White escritos de otros autores?”, while preserving the established separation between evidence and later theological implications.
 - **Source of truth:** https://github.com/nbertoa/ellen-white-research
 - **Review trigger:** Completion of Chapter 9, a material methodological change, or completion of the 17-chapter work.
+
+## Active
 
 ### BertaDevKit
 
@@ -33,7 +37,7 @@ Priority is relative and temporary. It exists to resolve competition for attenti
 
 ### LifeOS
 
-- **Priority:** Not yet explicitly ranked.
+- **Priority:** Supporting system; not ranked against domain projects.
 - **Outcome:** Maintain a trustworthy personal source of truth for durable knowledge, judgment, decisions, working practices, and long-term direction.
 - **Next milestone or decision:** Establish and use the project portfolio model without turning LifeOS into a task-management system.
 - **Source of truth:** https://github.com/nbertoa/lifeos
@@ -54,6 +58,12 @@ Priority is relative and temporary. It exists to resolve competition for attenti
 - **Next milestone or decision:** Receive and evaluate responses from ACES and IADPA; if a publisher is interested, perform a fresh quality review of the translations before delivering publication-ready files.
 - **Source of truth:** Correspondence with publishers/rightsholders and the maintained Morris Venden translation corpus.
 - **Review trigger:** A substantive publisher/rightsholder response, a rights decision, or acceptance/rejection of a publication path.
+
+## Focus Limit
+
+Keep **no more than two domain projects** in Focus at once. LifeOS itself is infrastructure and does not consume a domain-project slot unless it is undergoing a substantial redesign.
+
+Moving a project into Focus should normally move another project back to Active, Maintenance, or On hold. This is a WIP constraint, not a judgment of importance.
 
 ## Maintenance
 
