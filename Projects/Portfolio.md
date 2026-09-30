@@ -39,6 +39,22 @@ Priority is relative and temporary. It exists to resolve competition for attenti
 - **Source of truth:** https://github.com/nbertoa/lifeos
 - **Review trigger:** A structural change to LifeOS, evidence that the portfolio model is not useful, or material staleness in canonical context.
 
+### Jesús y Yo — Digital Library
+
+- **Priority:** Not yet explicitly ranked.
+- **Outcome:** Maintain jesusyyo.com as a coherent Spanish-language Christian library in which books and long-form works are accessible through complete, navigable web editions and durable downloads.
+- **Next milestone or decision:** Finish the current Morris Venden web-publication pass, including the corrected Spanish edition of *Nada Que Temer*, its durable source file, download, chapter structure, and final verification.
+- **Source of truth:** https://jesusyyo.com plus the maintained source documents for each publication.
+- **Review trigger:** Completion of the Morris Venden publication pass, a material change in rights/hosting constraints, or a redesign of the library publishing workflow.
+
+### Morris Venden — Authorized Spanish Publication
+
+- **Priority:** Not yet explicitly ranked.
+- **Outcome:** Make the completed Spanish translations available legally through an established publisher, without a personal profit motive, in ebook/Kindle and print where accepted.
+- **Next milestone or decision:** Receive and evaluate responses from ACES and IADPA; if a publisher is interested, perform a fresh quality review of the translations before delivering publication-ready files.
+- **Source of truth:** Correspondence with publishers/rightsholders and the maintained Morris Venden translation corpus.
+- **Review trigger:** A substantive publisher/rightsholder response, a rights decision, or acceptance/rejection of a publication path.
+
 ## Maintenance
 
 _No additional project has enough verified evidence to classify as Maintenance yet._
