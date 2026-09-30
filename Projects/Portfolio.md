@@ -11,7 +11,7 @@ This document tracks only projects that still need attention. Completed work is 
 | State | Projects |
 | --- | --- |
 | **Focus** | Ellen White Research; Jesús y Yo — Digital Library |
-| **Active** | BertaDevKit; Para qué estamos acá; La Oración; Ojo bueno y ojo malo |
+| **Active** | BertaDevKit; Ojo bueno y ojo malo |
 | **Waiting** | Morris Venden — Authorized Spanish Publication |
 | **Maintenance** | LifeOS; Unreal Authorized Instructor — Annual Maintenance |
 | **On hold** | Come and Reason — Spanish Translation |
@@ -41,18 +41,6 @@ This document tracks only projects that still need attention. Completed work is 
 - **Outcome:** Maintain a reusable Unreal Engine 5.8 R&D toolbox that removes recurring friction in research, prototyping, debugging, observability, and Editor tooling.
 - **Next milestone or decision:** Select the next feature only after validating that it removes a real recurring workflow friction.
 - **Source of truth:** https://github.com/nbertoa/ue5-bertadevkit
-
-### Para qué estamos acá — Book Research
-
-- **Outcome:** Develop an evidence-driven Christian answer to the project's central question and eventually turn it into a coherent book.
-- **Next milestone or decision:** Refine the question map and select the first genuinely foundational research question.
-- **Source of truth:** https://github.com/nbertoa/libro-para-que-estamos-aqui
-
-### La Oración — Book Research
-
-- **Outcome:** Build a rigorous book on Christian prayer that keeps biblical, theological, historical, experiential, and empirical claims distinct.
-- **Next milestone or decision:** Create the first canonical inventory of research questions before fixing the book outline.
-- **Source of truth:** https://github.com/nbertoa/libro-la-oracion
 
 ### Ojo bueno y ojo malo — Book Research
 
@@ -88,6 +76,13 @@ This document tracks only projects that still need attention. Completed work is 
 
 - **Reason:** Not currently of interest.
 - **Review trigger:** Only reconsider if Nicolás explicitly revives the project.
+
+## Retired
+
+- **Para qué estamos acá** — abandoned; Nicolás does not intend to write this book.
+- **La Oración** — abandoned; Nicolás does not intend to write this book.
+
+Retired projects should not be proposed for future work unless Nicolás explicitly revives them.
 
 ## Recently Completed
 
