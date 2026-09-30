@@ -45,7 +45,8 @@ This document tracks only projects that still need attention. Completed work is 
 ### Ojo bueno y ojo malo — Book Research
 
 - **Outcome:** Develop a contemplative biblical nonfiction book about blindness, light, and transformation in how Jesus is seen.
-- **Next milestone or decision:** Continue the research phase around John 9 and related biblical motifs before committing to a chapter architecture.
+- **Current research:** Initial dossiers now cover John 9:1–41; historical and textual questions remain open.
+- **Next milestone or decision:** Extend and contrast the John 9 research with the related blindness, light, and good/bad-eye motifs before committing to a chapter architecture.
 - **Source of truth:** https://github.com/nbertoa/ojo-bueno-y-ojo-malo
 
 ## Waiting
