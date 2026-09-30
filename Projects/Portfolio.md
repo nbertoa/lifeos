@@ -15,15 +15,37 @@ Priority is relative and temporary. It exists to resolve competition for attenti
 
 ## Active
 
-No projects are listed here until their current state, outcome, and source of truth are verified. Add projects deliberately rather than reconstructing a backlog from memory or scattered conversations.
+### Ellen White Research
+
+- **Priority:** Not yet explicitly ranked.
+- **Outcome:** Complete the planned 17-chapter research work with evidence, findings, methodology, and chapter text integrated coherently.
+- **Next milestone or decision:** Complete Chapter 9, “¿Utilizó Ellen White escritos de otros autores?”, while preserving the established separation between evidence and later theological implications.
+- **Source of truth:** https://github.com/nbertoa/ellen-white-research
+- **Review trigger:** Completion of Chapter 9, a material methodological change, or completion of the 17-chapter work.
+
+### BertaDevKit
+
+- **Priority:** Not yet explicitly ranked.
+- **Outcome:** Maintain a reusable Unreal Engine 5.8 R&D toolbox that removes recurring friction in research, prototyping, debugging, observability, and Editor tooling.
+- **Next milestone or decision:** Select the next feature only after validating that it removes a real recurring workflow friction rather than merely expanding the toolbox.
+- **Source of truth:** https://github.com/nbertoa/ue5-bertadevkit
+- **Review trigger:** Selection or completion of the next substantial feature, a change in Unreal Engine baseline, or a shift away from active R&D.
+
+### LifeOS
+
+- **Priority:** Not yet explicitly ranked.
+- **Outcome:** Maintain a trustworthy personal source of truth for durable knowledge, judgment, decisions, working practices, and long-term direction.
+- **Next milestone or decision:** Establish and use the project portfolio model without turning LifeOS into a task-management system.
+- **Source of truth:** https://github.com/nbertoa/lifeos
+- **Review trigger:** A structural change to LifeOS, evidence that the portfolio model is not useful, or material staleness in canonical context.
 
 ## Maintenance
 
-_No verified entries yet._
+_No additional project has enough verified evidence to classify as Maintenance yet._
 
 ## On hold
 
-_No verified entries yet._
+_No project has enough verified evidence to classify as On hold yet._
 
 ## Entry Format
 
@@ -31,7 +53,7 @@ Use this compact structure for each project:
 
 ### Project name
 
-- **Priority:** High / Medium / Low
+- **Priority:** High / Medium / Low, or explicitly unresolved.
 - **Outcome:** One sentence describing the durable result.
 - **Next milestone or decision:** One meaningful checkpoint.
 - **Source of truth:** Repository, document, site, or other execution system.
